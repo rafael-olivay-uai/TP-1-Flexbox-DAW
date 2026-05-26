@@ -12,4 +12,7 @@ La portada deberá estar organizada como una página principal de diario online 
 
 No es necesario que los enlaces lleven a páginas reales ni que el menú hamburguesa tenga funcionalidad interactiva. En esta etapa interesa principalmente la correcta construcción de la interfaz, su organización visual y su adaptación a distintos dispositivos.
 
-En pantallas de escritorio, el menú principal deberá visualizarse como una barra horizontal de navegación. En pantallas pequeñas, dicha barra deberá desaparecer y mostrarse únicamente el ícono de menú tipo hamburguesa (☰), sin necesidad de implementar todavía su funcionalidad con JavaScript
+En pantallas de escritorio, el menú principal deberá visualizarse como una barra horizontal de navegación. En pantallas pequeñas, dicha barra deberá desaparecer y mostrarse únicamente el ícono de menú tipo hamburguesa (☰), sin necesidad de implementar todavía su funcionalidad con JavaScript.
+
+## DEPLOY EN GITHUB PAGES:
+Enlace al deploy: [TP-1 Flexbox: Sitio InfoHoy](https://rafael-olivay-uai.github.io/TP-1-Flexbox-DAW/).
