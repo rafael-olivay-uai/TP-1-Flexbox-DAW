@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>InfoHoy – Tu fuente de información</title>
+    <link rel="stylesheet" href="./reset.css" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <!-- ===== HEADER ===== -->
+    <header class="site-header">
+      <div class="top-bar">
+        <div class="top-bar__brand">
+          <span class="top-bar__logo">InfoHoy</span>
+          <span class="top-bar__date">Martes, 26 de mayo de 2026</span>
+        </div>
+        <button class="hamburger" aria-label="Abrir menú">&#9776;</button>
+      </div>
+
+      <nav class="main-nav" aria-label="Navegación principal">
+        <ul class="main-nav__list">
+          <li><a href="#" class="main-nav__link main-nav__link--active">Inicio</a></li>
+          <li><a href="#" class="main-nav__link">Política</a></li>
+          <li><a href="#" class="main-nav__link">Economía</a></li>
+          <li><a href="#" class="main-nav__link">Deportes</a></li>
+          <li><a href="#" class="main-nav__link">Tecnología</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="site-main">
+
+      <section class="hero" aria-label="Noticia principal">
+        <img
+          class="hero__img"
+          src="https://picsum.photos/seed/infohoy1/1200/600"
+          alt="Imagen de la noticia principal"
+        />
+        <div class="hero__overlay">
+          <span class="hero__category">Política</span>
+          <h1 class="hero__title">
+            Cumbre internacional define nuevas políticas climáticas para la próxima década
+          </h1>
+          <p class="hero__desc">
+            Líderes de más de ochenta países acordaron un marco histórico para reducir
+            emisiones y financiar la transición energética en naciones en desarrollo.
+          </p>
+          <a href="#" class="hero__link">Leer nota completa &rarr;</a>
+        </div>
+      </section>
+
+      <div class="content-wrap">
+
+        <section class="news-secondary" aria-label="Noticias secundarias">
+          <h2 class="section-title">Últimas noticias</h2>
+
+          <article class="news-card">
+            <img
+              class="news-card__img"
+              src="https://picsum.photos/seed/infohoy2/400/220"
+              alt="Imagen noticia economía"
+            />
+            <div class="news-card__body">
+              <span class="news-card__category news-card__category--economia">Economía</span>
+              <h3 class="news-card__title">
+                <a href="#">El banco central mantiene la tasa de interés en su nivel más bajo en tres años</a>
+              </h3>
+              <p class="news-card__desc">
+                La medida busca estimular el crédito y el consumo ante la desaceleración del crecimiento registrada en el último trimestre.
+              </p>
+            </div>
+          </article>
+
+          <article class="news-card">
+            <img
+              class="news-card__img"
+              src="https://picsum.photos/seed/infohoy3/400/220"
+              alt="Imagen noticia deportes"
+            />
+            <div class="news-card__body">
+              <span class="news-card__category news-card__category--deportes">Deportes</span>
+              <h3 class="news-card__title">
+                <a href="#">La selección nacional clasifica al mundial con una victoria agónica en el último minuto</a>
+              </h3>
+              <p class="news-card__desc">
+                Un gol de penal sobre el final del partido aseguró el boleto directo y desató la celebración en todo el país.
+              </p>
+            </div>
+          </article>
+
+          <article class="news-card">
+            <img
+              class="news-card__img"
+              src="https://picsum.photos/seed/infohoy4/400/220"
+              alt="Imagen noticia tecnología"
+            />
+            <div class="news-card__body">
+              <span class="news-card__category news-card__category--tecnologia">Tecnología</span>
+              <h3 class="news-card__title">
+                <a href="#">La inteligencia artificial supera por primera vez a expertos humanos en diagnóstico médico</a>
+              </h3>
+              <p class="news-card__desc">
+                Un nuevo modelo desarrollado por un consorcio de universidades logró un nivel de precisión del 97 % en la detección temprana de enfermedades.
+              </p>
+            </div>
+          </article>
+
+          <article class="news-card">
+            <img
+              class="news-card__img"
+              src="https://picsum.photos/seed/infohoy5/400/220"
+              alt="Imagen noticia política"
+            />
+            <div class="news-card__body">
+              <span class="news-card__category news-card__category--politica">Política</span>
+              <h3 class="news-card__title">
+                <a href="#">El congreso aprueba la reforma educativa con amplio respaldo de todos los bloques</a>
+              </h3>
+              <p class="news-card__desc">
+                La nueva ley modifica los planes de estudio de la educación primaria e incorpora contenidos digitales y pensamiento crítico desde primer grado.
+              </p>
+            </div>
+          </article>
+        </section>
+
+        <aside class="sidebar" aria-label="Publicidades">
+          <div class="ad-block">
+            <p class="ad-block__label">Publicidad</p>
+            <a href="#" class="ad-block__link">
+              <img
+                src="https://picsum.photos/seed/ad1/300/250"
+                alt="Publicidad 1"
+                class="ad-block__img"
+              />
+              <span class="ad-block__text">TechStore — Laptops con hasta 40 % OFF</span>
+            </a>
+          </div>
+
+          <div class="ad-block">
+            <p class="ad-block__label">Publicidad</p>
+            <a href="#" class="ad-block__link">
+              <img
+                src="https://picsum.photos/seed/ad2/300/250"
+                alt="Publicidad 2"
+                class="ad-block__img"
+              />
+              <span class="ad-block__text">AutoMundo — Financiación en 48 cuotas sin interés</span>
+            </a>
+          </div>
+
+          <div class="sidebar-briefs">
+            <h3 class="sidebar-briefs__title">Breves</h3>
+            <ul class="sidebar-briefs__list">
+              <li><a href="#">Récord de temperatura en el hemisferio sur por tercer año consecutivo</a></li>
+              <li><a href="#">Nueva línea de subte avanza en obras y abre tramo piloto</a></li>
+              <li><a href="#">Startup local recauda 50 millones de dólares en ronda Serie B</a></li>
+              <li><a href="#">Festival de cine internacional anuncia su grilla completa</a></li>
+            </ul>
+          </div>
+        </aside>
+      </div>
+
+      <div class="ad-banner" role="complementary" aria-label="Banner publicitario">
+        <p class="ad-banner__label">Publicidad</p>
+        <a href="#" class="ad-banner__link">
+          <img
+            src="https://picsum.photos/seed/adbanner/1200/120"
+            alt="Banner publicitario"
+            class="ad-banner__img"
+          />
+        </a>
+      </div>
+
+    </main>
+
+    <footer class="site-footer">
+      <div class="site-footer__inner">
+        <span class="site-footer__brand">InfoHoy</span>
+        <nav class="site-footer__nav" aria-label="Navegación secundaria">
+          <a href="#">Política</a>
+          <a href="#">Economía</a>
+          <a href="#">Deportes</a>
+          <a href="#">Tecnología</a>
+        </nav>
+        <p class="site-footer__copy">&copy; 2026 InfoHoy. Todos los derechos reservados.</p>
+      </div>
+    </footer>
+  </body>
+</html>
